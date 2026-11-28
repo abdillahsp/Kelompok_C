@@ -1,0 +1,183 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Class Diagram" id="oODdcnmjtWfhButaNk13">
+    <mxGraphModel dx="1157" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-15" edge="1" parent="1" source="aJ2HDceCKY1dvYnu8gbP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.28;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;entryPerimeter=0;endArrow=none;endFill=0;" target="aJ2HDceCKY1dvYnu8gbP-11">
+          <mxGeometry relative="1" x="0.0046" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=default;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: nowrap; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- id_layanan: int (PK)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- nama_layanan: varchar(100)&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: nowrap; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- deskripsi: text&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- harga: int&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=default;gradientColor=none;fillColor=light-dark(#FFFFFF,#00838F);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Layanan&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=default;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ getAll(): List&amp;lt;Layanan&amp;gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ getUnggulan(limit): List&amp;lt;Layanan&amp;gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- id_pesanan: int (PK)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- nama_pelanggan: varchar(100)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- no_hp: varchar(20)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- alamat: text&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- id_layanan: int (FK)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- tanggal_pesan: date&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- jam_pesan: time&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- catatan: text&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- status: varchar(30)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- created_at: timestamp&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="200" x="413" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFFFFF,#3F51B5);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Pesanan&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="413" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ create(data): bool&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ getAll(): List&amp;lt;Pesanan&amp;gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ search(keyword): List&amp;lt;Pesanan&amp;gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ tentukanStatus(): String&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ updateStatus(id): bool&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ delete(id): bool&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ getStatistik(): Array&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="200" x="413" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;i&gt;&lt;font style=&quot;font-size: 9px;&quot; face=&quot;Comic Sans MS&quot;&gt;Dipesan dalam&lt;/font&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="63" x="295" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot; size=&quot;1&quot;&gt;&lt;i&gt;&lt;b&gt;0..*&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="42" x="380" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot; size=&quot;1&quot;&gt;&lt;i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="42" x="231" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- id_user: int (PK)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- username: varchar(50) (unique)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- password: varchar(255)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;- nama: varchar(100)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=light-dark(#FFFFFF,#FFFFFF);fillColor=light-dark(#FFFFFF,#793434);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Users&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="40" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ login(username, password): bool&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ logout(): void&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;+ cekSession(): bool&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="40" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="170" width="220" x="40" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=none;gradientColor=none;fillColor=light-dark(#FFFFFF,#00838F);" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="50" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=none;fillColor=light-dark(#FFFFFF,#793434);" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="50" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFFFFF,#3F51B5);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="50" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-26" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Class Utama (Transaksi)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="220" x="110" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-27" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Master Data&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="220" x="110" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-28" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Pendukung/Autentikasi&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="220" x="110" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-30" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;KETERANGAN&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="80" x="50" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="170" width="250" x="290" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-38" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;KETERANGAN RELASI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="160" x="300" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-45" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1.5;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="549.5" as="sourcePoint" />
+            <mxPoint x="360" y="549.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-47" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;: Asosiasi (Association&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="130" x="360" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-48" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="10" x="320" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-49" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;: Satu (Exactly One&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="110" x="330" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-50" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;0..*&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="20" x="320" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-51" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;: Nol atau Banyak (Zero or Many)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="185" x="345" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-52" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 10px;&quot;&gt;Pada Garis layanan dan pesanan:&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 10px;&quot;&gt;angka 1 disisi Layanan dan 0..* di sisi pesanan.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 10px;&quot;&gt;Artinya satu layanan dapat dipesan berkali&quot;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 10px;&quot;&gt;dan setiap pesanan memuat tepat satu layanan&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="213" x="307" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;align=left;fontColor=default;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 7px;&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;span style=&quot;font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;• Setiap pesanan memuat tepat satu layanan (Pesanan.id_layanan adalah foreign key ke Layanan.id_layanan).&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;span style=&quot;font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;• Satu layanan dapat dipesan oleh banyak pesanan (nol atau lebih).&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;span style=&quot;font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;• Users menyimpan akun admin dan berdiri sendiri, tidak memiliki foreign key ke tabel lain.&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;span style=&quot;font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;• Status pesanan: Menunggu dan Selesai disimpan di database, sedangkan Proses ditentukan oleh method tentukanStatus() berdasarkan jadwal.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="250" x="560" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ2HDceCKY1dvYnu8gbP-54" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;CATATAN&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="70" x="570" y="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EZ_ZAkajao5BpMfO9mw0" name="Object Diagram">
+    <mxGraphModel dx="4905" dy="2676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-14" edge="1" parent="1" source="d4sFWI7ztSGuGpeyB4ji-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;strokeWidth=2;" target="d4sFWI7ztSGuGpeyB4ji-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;id_pesanan = 13&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;nama_pelanggan = &quot;kipli&quot;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;no_hp = &quot;0853171254231&quot;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;alamat = &quot;Cibeber&quot;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;id_layanan = 4&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;tanggal_pesan = &quot;2026-10-13&quot;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;jam_pesan = &quot;15:18:00&quot;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;status = &quot;Selesai&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="200" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFFFFF,#3F51B5);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Pesanan 13 : Pesanan&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="30" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-17" edge="1" parent="1" source="d4sFWI7ztSGuGpeyB4ji-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;strokeWidth=2;" target="d4sFWI7ztSGuGpeyB4ji-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;id_pesanan = 14&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;nama_pelanggan = &quot;Ridho&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;no_hp = &quot;08123435671233&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;alamat = &quot;Ciputat&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;id_layanan = 1&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;tanggal_pesan = &quot;2026-10-13&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;jam_pesan = &quot;15:29:00&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;status = &quot;Selesai&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="200" x="250" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFFFFF,#3F51B5);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Pesanan 14 : Pesanan&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="250" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-18" edge="1" parent="1" source="d4sFWI7ztSGuGpeyB4ji-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;strokeWidth=2;" target="d4sFWI7ztSGuGpeyB4ji-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;id_pesanan = 19&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;nama_pelanggan = &quot;Michael&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;no_hp = &quot;0857123341233&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;alamat = &quot;Legenda Wisata Cluster&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&amp;nbsp;&amp;nbsp; Vivaldi&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;id_layanan = 1&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;tanggal_pesan = &quot;2026-10-17&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;jam_pesan = &quot;07:10:00&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;status = &quot;Menunggu&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="200" x="470" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFFFFF,#3F51B5);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Pesanan 19&amp;nbsp;: Pesanan&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="470" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-21" edge="1" parent="1" source="d4sFWI7ztSGuGpeyB4ji-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;strokeWidth=2;" target="d4sFWI7ztSGuGpeyB4ji-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;id_pesanan = 17&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;nama_pelanggan = &quot;Dinda&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;no_hp = &quot;0895621244123&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;alamat = &quot;JL.Cempaka&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;id_layanan = 3&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;tanggal_pesan = &quot;2026-10-16&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;jam_pesan = &quot;10:20:00&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;status = &quot;Selesai&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="200" x="690" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFFFFF,#3F51B5);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Pesanan 17 : Pesanan&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="690" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;id_layanan = 4&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;nama_layanan = &quot;Cleaning Kamar&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;deskripsi = &quot;Membersihkan kamar&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&amp;nbsp;&amp;nbsp; tidur, lantai, meja, lemari, dan&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&amp;nbsp;&amp;nbsp; area sekitar.&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;harga = 100000&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="30" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFFFFF,#4E5B31);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Layanan 4 : Layanan&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="30" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;id_layanan = 1&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;nama_layanan = &quot;Cleaning Rumah&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;deskripsi = &quot;Membersihkan ruangan,&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&amp;nbsp;&amp;nbsp; lantai, kamar mandi, dan area&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&amp;nbsp;&amp;nbsp; rumah.&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;harga = 150000&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="370" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFFFFF,#4E5B31);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Layanan 1 : Layanan&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="370" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;id_layanan = 3&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;nama_layanan = &quot;Deep Cleaning&quot;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;deskripsi = &quot;Pembersihan menyeluruh&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&amp;nbsp;&amp;nbsp; untuk rumah dengan kondisi yang&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&amp;nbsp;&amp;nbsp; membutuhkan perawatan khusus.&quot;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;harga = 300000&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="690" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFFFFF,#4E5B31);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Layanan 3 : Layanan&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="690" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;id_user = 1&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;username = &quot;admin&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;password = &quot;********&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;nama = &quot;Administrator&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="360" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFFFFF,#793434);" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Users&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="360" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-25" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="200" width="710" x="40" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="d4sFWI7ztSGuGpeyB4ji-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="KETERANGAN" vertex="1">
+          <mxGeometry height="40" width="170" x="40" y="800" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
